@@ -1,0 +1,79 @@
+:root {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 15vw;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 96%;
+    margin: 10px 10px;
+    background: url(./images/alexander-grey-WqPAETBU2G8-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.logo-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.logo-name {
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+.img-description {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.img-info {
+    text-align: center;
+}
+
+.form-info {
+    width: 50vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px
+}
+
+h1 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    text-align: justify;
+}
