@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="./main.js" defer ></script>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -27,6 +28,51 @@
         <div class="form-info">
             <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br /> Sign up <i>now</i> to get started. <br /> <br />You <i>know</i> you want to.</h1>
         </div>
+        <form action="">
+            <div class="form-container">
+                <h1>Let's do this!</h1>
+                <div class="inputs">
+                    <div class="form-field">
+                        <input type="text" class="form-input" id="first-name" size="30" maxlength="245" placeholder="FIRST NAME">
+                        <label for="first-name" class="form-label">FIRST NAME:</label>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" class="form-input" id="last-name" size="30" maxlength="245" placeholder="LAST NAME">
+                        <label for="last-name" class="form-label">LAST NAME:</label>
+                        <small>error message</small>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="form-field">
+                        <input type="email" class="form-input" id="email" size="30" maxlength="100" placeholder="EMAIL">
+                        <label for="email" class="form-label">EMAIL:</label>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-field">
+                        <input type="tel" class="form-input" id="phone" placeholder="PHONE NUMBER">
+                        <label for="phone" class="form-label">PHONE NUMBER:</label>
+                        <small>error message</small>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="form-field">
+                        <input type="password" class="form-input" id="password" placeholder="PASSWORD">
+                        <label for="password" class="form-label">PASSWORD:</label>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-field">
+                        <input type="password" class="form-input" id="confirmPassword" placeholder="CONFIRM PASSWORD">
+                        <label for="confirmPassword" class="form-label">CONFIRM PASSWORD:</label>
+                        <small>error message</small>
+                    </div>
+            </div>
+            </div>
+            <div class="account">
+                <button class="btn">Create Account</button>
+                <h1>Already have an account? <a href="" class="login">Log In</a></h1>
+            </div>
+        </form>
     </div>
     
 </body>
